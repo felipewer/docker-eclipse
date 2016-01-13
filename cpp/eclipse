@@ -3,5 +3,5 @@
 docker run -ti --rm \
            -e DISPLAY=$DISPLAY \
            -v /tmp/.X11-unix:/tmp/.X11-unix \
-           -v `pwd`:/workspace \
-           felipewer/eclipse:v4.5.1
+           -v `pwd`:/home/developer/workspace \
+           felipewer/eclipse-cpp:v4.5.1
